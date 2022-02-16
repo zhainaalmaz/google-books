@@ -1,0 +1,72 @@
+.overlay {
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlayInner {
+  background: white;
+  width: 700px;
+  height: 550px;
+  padding: 1.5rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 1.3rem;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  background-color: transparent;
+}
+
+.innerBox {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.innerBox img {
+  margin-right: 20px;
+  width: 150px;
+  height: 200px;
+}
+
+.innerBox h3 {
+  margin-top: 10px;
+  color: rgb(38, 61, 38);
+}
+
+.innerBox h4 {
+  color: rgb(76, 146, 87);
+}
+
+.innerBox button {
+  outline: none;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+}
+
+.description {
+  margin-top: 2rem;
+  text-align: justify;
+  font-size: 13px;
+}
